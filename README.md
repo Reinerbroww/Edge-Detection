@@ -1,19 +1,5 @@
 
 
-```md
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Deteksi%20Tepi%20Citra%20PCD&fontSize=42)
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=36BCF7&size=22&center=true&vCenter=true&width=1000&lines=Pengolahan+Citra+Digital;Python+dan+OpenCV;Preprocessing+dan+Edge+Detection;Sobel+%26+Canny)
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-4.7-green" />
-  <img src="https://img.shields.io/badge/Project-Aktif-success" />
-  <img src="https://img.shields.io/badge/PCD-Universitas%20Tadulako-orange" />
-</p>
-
----
-
 ## 🧠 Deskripsi Project
 Project ini merupakan bagian dari **mata kuliah Pengolahan Citra Digital (PCD)** yang bertujuan untuk menerapkan proses **preprocessing citra** dan **deteksi tepi (edge detection)** menggunakan **Python dan OpenCV**.
 

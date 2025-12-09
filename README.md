@@ -117,6 +117,20 @@ Semua hasil preprocessing dan deteksi tepi akan otomatis tersimpan di:
 hasil/
 ```
 
+⚠️ Catatan:
+Penggunaan virtual environment (.venv) bersifat OPSIONAL.
+Jika terjadi error saat membuat atau mengaktifkan .venv,
+project tetap dapat dijalankan langsung tanpa virtual environment.
+
+
+🔹 Alternatif (Tanpa Virtual Environment)
+
+Jika mengalami kendala pada .venv, jalankan secara langsung:
+
+pip install numpy==1.26.4
+pip install opencv-python==4.7.0.72
+python main.py
+
 ---
 
 ## 🔍 Metode Pengolahan Citra

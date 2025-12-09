@@ -1,54 +1,157 @@
-Deteksi Tepi Citra Menggunakan OpenCV – Proyek PCD
 
-Project ini melakukan preprocessing (grayscale, blur, histogram equalization) dan deteksi tepi (Sobel & Canny) pada dataset gambar menggunakan Python dan OpenCV.
 
-Dataset (Google Drive): 👉 https://drive.google.com/drive/folders/1fAUHUyCcsGcwbI1eVmj5B4DMAImzweKA?usp=drive_link
+```md
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Deteksi%20Tepi%20Citra%20PCD&fontSize=42)
 
-📁 Struktur Folder Project
-PCD/
-  ├── main.py
-  ├── dataset/        # isi gambar
-  ├── hasil/          # hasil output
-  ├── .gitignore
-  └── README.md
-  
-🛠 Apa Saja yang Perlu Didownload?
-Python 3.10 https://www.python.org/downloads/release/python-31011/
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=36BCF7&size=22&center=true&vCenter=true&width=1000&lines=Pengolahan+Citra+Digital;Python+dan+OpenCV;Preprocessing+dan+Edge+Detection;Sobel+%26+Canny)
 
-Visual Studio Code https://code.visualstudio.com/
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-4.7-green" />
+  <img src="https://img.shields.io/badge/Project-Aktif-success" />
+  <img src="https://img.shields.io/badge/PCD-Universitas%20Tadulako-orange" />
+</p>
 
-Library Python yang diperlukan Jalankan perintah ini setelah mengaktifkan venv:
+---
 
-pip install numpy==1.26.4
-pip install opencv-python==4.7.0.72
-🚀 Cara Menjalankan Project
-Ikuti langkah berikut agar orang awam pun bisa mengikuti:
+## 🧠 Deskripsi Project
+Project ini merupakan bagian dari **mata kuliah Pengolahan Citra Digital (PCD)** yang bertujuan untuk menerapkan proses **preprocessing citra** dan **deteksi tepi (edge detection)** menggunakan **Python dan OpenCV**.
 
-1. Clone Repository
-git clone https://github.com/Reinerbroww/Deteksi_Tepi_PCD.git
-cd Deteksi_Tepi_PCD
-2. Buat Virtual Environment
-python -m venv .venv
-3. Aktifkan Virtual Environment (Windows)
-.venv\Scripts\activate
-4. Install Semua Library
-pip install numpy==1.26.4
-pip install opencv-python==4.7.0.72
-5. Masukkan Gambar ke Folder dataset/
-Masukkan semua file gambar (jpg/png/jpeg) ke folder:
+Program akan membaca seluruh gambar dalam folder dataset, memprosesnya secara otomatis tahap demi tahap, lalu menyimpan setiap hasil pengolahan ke dalam folder output.
+
+---
+
+## 📌 Fitur Utama
+✅ Grayscale Conversion  
+✅ Gaussian Blur  
+✅ Histogram Equalization  
+✅ Sobel Edge Detection  
+✅ Canny Edge Detection  
+✅ Pemrosesan batch (banyak gambar sekaligus)  
+✅ Output tersimpan otomatis  
+
+---
+
+## 📁 Struktur Folder
+```
+
+Deteksi_Tepi_PCD/
+├── main.py              # source code utama
+├── dataset/             # input gambar
+├── hasil/               # output hasil pengolahan
+├── .gitignore
+└── README.md
+
+```
+
+---
+
+## 📂 Dataset
+Dataset gambar dapat diunduh melalui Google Drive berikut:
+
+🔗 **Link Dataset:**  
+https://drive.google.com/drive/folders/1fAUHUyCcsGcwbI1eVmj5B4DMAImzweKA?usp=drive_link
+
+📌 Setelah download, masukkan seluruh file gambar ke dalam:
+```
 
 dataset/
-6. Jalankan Program
-python main.py
-7. Lihat Hasil di Folder hasil/
-Semua hasil (grayscale, blur, histogram, sobel, canny) otomatis muncul di folder:
 
+```
+
+---
+
+## 🛠 Software & Tools
+Pastikan perangkat sudah terinstall:
+
+- **Python 3.10**  
+  https://www.python.org/downloads/release/python-31011/
+- **Visual Studio Code**  
+  https://code.visualstudio.com/
+
+---
+
+## 📦 Library yang Digunakan
+```
+
+numpy==1.26.4
+opencv-python==4.7.0.72
+
+````
+
+---
+
+## 🚀 Cara Menjalankan Project
+Ikuti langkah berikut dengan urut:
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/Reinerbroww/Deteksi_Tepi_PCD.git
+cd Deteksi_Tepi_PCD
+````
+
+### 2️⃣ Buat Virtual Environment
+
+```bash
+python -m venv .venv
+```
+
+### 3️⃣ Aktifkan Virtual Environment (Windows)
+
+```bash
+.venv\Scripts\activate
+```
+
+### 4️⃣ Install Library
+
+```bash
+pip install numpy==1.26.4
+pip install opencv-python==4.7.0.72
+```
+
+### 5️⃣ Siapkan Dataset
+
+Masukkan gambar dengan format `.jpg`, `.png`, atau `.jpeg` ke folder:
+
+```
+dataset/
+```
+
+### 6️⃣ Jalankan Program
+
+```bash
+python main.py
+```
+
+### 7️⃣ Lihat Hasil Output
+
+Semua hasil preprocessing dan deteksi tepi akan otomatis tersimpan di:
+
+```
 hasil/
-📌 Metode yang Digunakan
-Grayscale
-Gaussian Blur
-Histogram Equalization
-Sobel Edge Detection
-Canny Edge Detection
-✨ Author
-Reinnher Sakunab F55124110 – Teknik Informatika Universitas Tadulako
+```
+
+---
+
+## 🔍 Metode Pengolahan Citra
+
+* Grayscale Conversion
+* Gaussian Blur
+* Histogram Equalization
+* Sobel Edge Detection
+* Canny Edge Detection
+
+---
+
+## ✨ Author
+
+**Reinnher Sakunab**
+F55124110
+Program Studi Teknik Informatika
+Universitas Tadulako
+
+---
+
+<p align="center">
+  <i>Project ini dibuat untuk keperluan akademik dan pembelajaran.</i>
+</p>
